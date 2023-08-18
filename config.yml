@@ -1,0 +1,18 @@
+# configure aqui seu plugin.
+# permissão para usar o comando de imortal
+# H_God.Reload - Recarregar o plugin.
+# H_God.Command - comandos de entrar ou sair do imortal.
+Config:
+  
+  # prefixo do seu servidor
+  tag: "&6[God]"
+  
+# configure aqui as mensagens do plugin
+Mensagens:
+  activated: "{tag} &fSeu modo imortal foi ativado."
+  desactivated: "{tag} &cSeu modo imortal foi desativado."
+  activatedPlayer: "{tag} &fVocê ativou o modo imortal para o jogador &a{player} &fcom sucesso!"
+  desactivatedPlayer: "{tag} &fVocê tirou o modo imortal do jogador &c{player}&f!"
+  pluginReloaded: "{tag} &aConfiguração recarregada com sucesso!"
+  playerNotFound: "{tag} &cEste jogador não foi encontrado no servidor!."
+  noPermission: "{tag} &cVocê não possui permissão para usar este comando!"

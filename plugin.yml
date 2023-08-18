@@ -1,0 +1,9 @@
+name: H_God
+version: 0.1
+author: lHawk_
+description: faça um jogador ser immortal.
+main: me.hgod.Core
+commands:
+  god:
+    aliases: [imortal,immortal]
+    description: comando geral.
